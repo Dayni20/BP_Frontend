@@ -1,0 +1,13 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "principal/app.js",
+  "scripts": {
+    "start": "node principal/app.js",
+    "math":"node principal/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dayana",
+  "license": "ISC"
+}
