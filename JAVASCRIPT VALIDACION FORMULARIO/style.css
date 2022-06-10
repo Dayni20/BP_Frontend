@@ -1,0 +1,40 @@
+.body{
+    margin:0px;
+    background-color: yellow;
+}
+*{
+ box-sizing: border-box;
+}
+.container{
+    max-width: 600px;
+    width:100%;
+    background-color: rgb(246, 248, 116);
+    height: 500px;
+    border:1px solid gray;
+    margin:0 auto;
+    margin-top:50px;
+}
+.container_tittle{
+    padding-top: 10%;
+    text-align: center;
+}
+.input_container{
+    max-width: 300PX;
+    margin: 0 auto;
+    text-align: center;
+}
+.input_container .label{
+    width: 100%;
+    border: 1px solid gray;
+    padding: 10px;
+}
+.input_container .input-error{
+    color: red;
+    margin: 0px;
+    }
+.button{
+    background-color: yellow;
+    color: black;
+    border-radius: 6px;
+    padding: 5px;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js"></script>
+  <title>Validación</title>
+</head>
+
+<body>
+  <div class="container">
+    <form id="form-register" action="https://www.youtube.com" method="get">
+
+      <h2 class="container_tittle">Formulario</h2>
+      <br>
+      <div id="cedula_container" class="input_container">
+        <label for="input_name">Cedula: </label>
+        <input type="cedula" name="cedula-name" id="input_cedula" class="input" placeholder="Cedula" pattern="[0-9]+" autocomplete="off"/>
+        <p class="input-error"></p>
+      </div>
+      <br>
+
+      <div id="name_container" class="input_container">
+        <label for="input_name">Nombre: </label>
+        <input type="text" name="name" id="input_name" class="input" placeholder="Nombre" pattern="[A-z]+" autocomplete="off"/>
+        <p class="input-error"></p>
+      </div>
+      <br>
+
+      <div id="last_name_container" class="input_container">
+        <label for="input_name">Apellido: </label>
+        <input type="text" name="last-name" id="input_last_name" class="input" placeholder="Apellido" />
+        <p class="input-error"></p>
+      </div>
+      
+
+       <!--<div id="user_name_container" class="input_container">
+        <label for="input_name">Usuario: </label>
+        <input type="text" name="user-name" id="input_user_name" class="input" placeholder="Usuario" />
+        <p class=" input-error"></p>
+      </div> -->
+
+      <br>
+      <div id="email_container" class="input_container">
+        <label for="input_name">Email: </label>
+        <input type="email" name="email" id="input_email" class="input" placeholder="Email" autocomplete="off" />
+        <p class="input-error"></p>
+      </div>
+
+      <br>
+      <div id="date_container" class="input_container">
+        <label for="input_name">Fecha de Pago: </label>
+        <input type="date" name="email" id="input_date" class="input" placeholder="Date" autocomplete="off" />
+        <p class="input-error"></p>
+      </div>
+<br>
+      <div class="input_container">
+        <button type="submit" class="button">Enviar</button>
+      </div>
+
+  
+
+  </form>
+  </div>
+
+</body>
+
+</html>
